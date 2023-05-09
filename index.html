@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top center">
+        <h1 class="top_title">Добро пожаловать на мой сайт !</h1>
+        <p class="slogan">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+        <button class="top_btn">Поехали!</button>
+    </div>
+    <div class="game center">
+        <a class="name_game name_game_1" href="#">Игра 1</a>
+        <a class="name_game name_game_2" href="#">Игра 2</a>
+        <a class="name_game name_game_3" href="#">Игра 3</a>
+    </div>
+    <div class="season center">
+        <div class="season_about">
+            <p class="name">Времена года!</p>
+            <p class="rule">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+            <button onclick="month()" class="top_btn">Играть</button>
+        </div>
+        <img class="season_picture" src="img/undraw_video_game_night_8h8m 1.png" alt="">
+    </div> 
+    
+    <div class="rem_word center">
+        <img class="rem_word_picture" src="img/undraw_gaming_re_cma2 1.png" alt="">
+        <div class="rem_word_about">
+            <p class="name">Запомни слова </p>
+            <p class="rule">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button onclick="fruit()" class="top_btn">Играть</button>
+        </div>
+    </div>
+    <script src="season.js"></script>
+</body>
+</html>
